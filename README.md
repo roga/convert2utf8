@@ -12,11 +12,11 @@
 
 1. 把文字檔案從 gbk 編碼轉換為 utf-8 編碼 (並且自動將簡體字替換為繁體字)：
 
-   user@host $ convert2utf8 the_text_file.txt
+   `user@host $ convert2utf8 the_text_file.txt`
 
 2. 把文字檔案從任何編碼轉換到 utf8 編碼 (並且自動將簡體字替換為繁體字)：
 
-   user@host $ convert2utf8 the_text_file.txt {encoding}
+   `user@host $ convert2utf8 the_text_file.txt {encoding}`
 
    {encoding} 可以對應的編碼列表： http://docs.python.org/library/codecs.html#standard-encodings
  
@@ -26,11 +26,11 @@
 
 1. convert text file from gbk encoding to utf8 encoding: 
    
-   user@host $ convert2utf8 the_text_file.txt
+   `user@host $ convert2utf8 the_text_file.txt`
 
 2. convert text file from any encoding to utf8 encoding:
 
-   user@host $ convert2utf8 the_text_file.txt {encoding}
+   `user@host $ convert2utf8 the_text_file.txt {encoding}`
 
    the {encoding} list could be found: http://docs.python.org/library/codecs.html#standard-encodings
    
@@ -41,26 +41,20 @@
 
 1. 下載並且解壓縮
 
-   tar -zxvf convert2utf8.tgz
-
 2. 執行安裝程式。
 
-   cd trunk
-   sudo ./install.sh
+   `sudo ./install.sh`
 
 3. 完成。
 
 *convert2utf8 install manual for MAC OS X and Linux*
 
-1. download the latest tar.gz file from project site.
+1. download the compressed file from project site.
  
 2. extract file.
 
-   tar -zxvf convert2utf8.tgz
-
 3. run install script
 
-   cd trunk
-   sudo ./install.sh
+   `sudo ./install.sh`
 
 4. finish
