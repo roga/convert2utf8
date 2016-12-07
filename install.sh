@@ -17,10 +17,10 @@ if [ -L "/usr/local/bin/convert2utf8" ]; then
 	`rm -f /usr/local/bin/convert2utf8`
 fi
 
-`cp ./convert2utf8.py /usr/local/bin/convert2utf8.py`
-`cp ./convert2utf8.res /usr/local/bin/convert2utf8.res`
-`chmod +x /usr/local/bin/convert2utf8.py`
-`ln -s /usr/local/bin/convert2utf8.py /usr/local/bin/convert2utf8`
+cp ./convert2utf8.py /usr/local/bin/convert2utf8.py
+cp ./convert2utf8.res /usr/local/bin/convert2utf8.res
+chmod +x /usr/local/bin/convert2utf8.py
+ln -s /usr/local/bin/convert2utf8.py /usr/local/bin/convert2utf8
 
 echo "Install convert2utf8 done."
 exit 0
